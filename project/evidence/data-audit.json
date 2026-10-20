@@ -1,0 +1,94 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand",
+  "download_date": "2026-10-20",
+  "sha256_csv": "373339b71a8935d69e9af0abf26a70744632119862eeb3919efb389a7b749c60",
+  "bytes_csv": 604166,
+  "rows": 8760,
+  "columns": 14,
+  "column_names": [
+    "Date",
+    "Rented Bike Count",
+    "Hour",
+    "Temperature(°C)",
+    "Humidity(%)",
+    "Wind speed (m/s)",
+    "Visibility (10m)",
+    "Dew point temperature(°C)",
+    "Solar Radiation (MJ/m2)",
+    "Rainfall(mm)",
+    "Snowfall (cm)",
+    "Seasons",
+    "Holiday",
+    "Functioning Day"
+  ],
+  "start": "2017-12-01 00:00:00",
+  "end": "2018-11-30 23:00:00",
+  "months": 12,
+  "null_cells": 0,
+  "duplicate_rows": 0,
+  "duplicate_timestamps": 0,
+  "missing_hours": 0,
+  "categories": {
+    "Seasons": {
+      "Spring": 2208,
+      "Summer": 2208,
+      "Autumn": 2184,
+      "Winter": 2160
+    },
+    "Holiday": {
+      "No Holiday": 8328,
+      "Holiday": 432
+    },
+    "Functioning Day": {
+      "Yes": 8465,
+      "No": 295
+    }
+  },
+  "non_operating_hours": 295,
+  "non_operating_positive_rentals": 0,
+  "operating_zero_rentals": 0,
+  "operating_hours": 8465,
+  "total_rentals": 6172314,
+  "numeric_ranges": {
+    "Rented Bike Count": {
+      "min": 0.0,
+      "max": 3556.0
+    },
+    "Hour": {
+      "min": 0.0,
+      "max": 23.0
+    },
+    "Temperature(°C)": {
+      "min": -17.8,
+      "max": 39.4
+    },
+    "Humidity(%)": {
+      "min": 0.0,
+      "max": 98.0
+    },
+    "Wind speed (m/s)": {
+      "min": 0.0,
+      "max": 7.4
+    },
+    "Visibility (10m)": {
+      "min": 27.0,
+      "max": 2000.0
+    },
+    "Dew point temperature(°C)": {
+      "min": -30.6,
+      "max": 27.2
+    },
+    "Solar Radiation (MJ/m2)": {
+      "min": 0.0,
+      "max": 3.52
+    },
+    "Rainfall(mm)": {
+      "min": 0.0,
+      "max": 35.0
+    },
+    "Snowfall (cm)": {
+      "min": 0.0,
+      "max": 8.8
+    }
+  }
+}
